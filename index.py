@@ -6,7 +6,6 @@ import random
 
 client = Client()
 AUTHOR_TAG = 'cfxtimes'
-AUTHOR_PASSWORD = 'oatmeal'
 DELAY = 60 * 60
 
 HASHTAG_PROB = 0.3
