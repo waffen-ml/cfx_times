@@ -25,7 +25,7 @@ CAPYBARA_PROB = 0.4
 def ask_gpt(prompt):
     response = client.chat.completions.create(
         model=g4f.models.gpt_4,
-        provider=g4f.Provider.FreeChatgpt,
+        provider=g4f.Provider.You,
         max_tokens=1000,
         messages=[{"role": "user", "content": prompt}]
     )
